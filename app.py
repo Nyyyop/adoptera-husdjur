@@ -26,7 +26,8 @@ def animals(pet_type):
 
 @app.route('/animals/<pet_type>/<pet_id>')
 def pet(pet_type, pet_id):
-  pet = 
+  pet = f"pet type is: {pet_type}. and pet id is: {pet_id}. "
+  return pet
   
 
 # Viktigt: Denna kodrad ska alltid placeras längst ner i filen.
