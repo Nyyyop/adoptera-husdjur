@@ -1,7 +1,15 @@
-# mreeeeoooow :3
 # Adoptera Husdjur
 
-This is the README file for the Adoptera Husdjur project.
+
+## Description
+
+Welcome to Adoptera Husdjur! This is the first project and it's a part of the course "Webbserverprogrammering 1", curriculum year 23/24. 
+
+The project is a web application built with the Flask framework. It provides a platform where users can browse through a list of pets available for adoption. Each pet has a profile page with details such as name, age, breed, and a short description. Users can also submit a form to express their interest in adopting a pet.
+
+The application uses many different functions that are present in "class" functions in Python, such as instances, classes, modules, and `__name__`. For routing, the project utilizes Flask's `route`, `request`, `response`, and `endpoints`.
+
+Whether you're looking for a furry friend or want to find a loving home for a pet, this application is here to help.
 
 ## Table of Contents
 
