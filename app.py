@@ -21,14 +21,22 @@ def index():
 def animals(pet_type):
   html = f"<h1>List of {pet_type}</h1><ul>"
   for pet in pets[pet_type]:
-    html += f"<li>{pet['name']}</li></ul>"
+    html += f'<li><a href="/animals/{pet_type}/{pet["name"]}">{pet["name"]}</li></ul>'
   return html 
 
 @app.route('/animals/<pet_type>/<pet_id>')
 def pet(pet_type, pet_id):
-  pet = f"pet type is: {pet_type}. and pet id is: {pet_id}. "
-  return pet
-  
+  for pet in pets[pet_type]:
+    if pet['name'] == pet_id:
+      return f"pet type is: {pet_type}.<br> and pet name is: {pet_id}. <br><img src='{pet['url']}'>"
+  return "Pet not found", 404
+
+
+#def pet(pet_type, pet_id):
+#  pet = f"pet type is: {pet_type}.<br> and pet id is: {pet_id}. <br><img src='{pets[pet_type][]['url']}>"
+#  return pet
+
+
 
 # Viktigt: Denna kodrad ska alltid placeras längst ner i filen.
 # Detta för att säkerställa en korrekt uppstart av servern.
