@@ -29,12 +29,9 @@ def pet(pet_type, pet_id):
   for pet in pets[pet_type]:
     if pet['name'] == pet_id:
       return f"pet type is: {pet_type}.<br> and pet name is: {pet_id}. <br><img src='{pet['url']}'>"
-  return "Pet not found", 404
+  return 404
 
 
-#def pet(pet_type, pet_id):
-#  pet = f"pet type is: {pet_type}.<br> and pet id is: {pet_id}. <br><img src='{pets[pet_type][]['url']}>"
-#  return pet
 
 
 
