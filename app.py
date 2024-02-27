@@ -61,7 +61,7 @@ def pet(pet_type, pet_id):
   """
   for pet in pets[pet_type]:
     if pet['name'] == pet_id:
-      return f"pet type is: {pet_type}.<br> and pet name is: {pet_id}. <br><img src='{pet['url']}'>"
+      return f"pet type is: {pet_type}.<br> and pet name is: {pet_id}. <br><img src='{pet['url']}'><br>description: {pet['description']}"
   return "404"
 
 
