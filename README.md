@@ -3,7 +3,7 @@
 
 ## Description
 
-Welcome to Adoptera Husdjur! This is the first project and it's a part of the course "Webbserverprogrammering 1", curriculum year 23/24. 
+Welcome to Adoptera Husdjur! This is the first project and it's a part of the course "Webbserverprogrammering 1", curriculum year 23/24, NTI Gymnasiet. 
 
 The project is a web application built with the Flask framework. It provides a platform where users can browse through a list of pets available for adoption. Each pet has a profile page with details such as name, age, breed, and a short description. Users can also submit a form to express their interest in adopting a pet.
 
