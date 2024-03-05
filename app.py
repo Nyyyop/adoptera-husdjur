@@ -1,6 +1,5 @@
 from flask import Flask
 from helper import pets
-#meow :3
 app = Flask(__name__)
 
 @app.route('/')
@@ -13,7 +12,7 @@ def index():
   """
   return """
   <h1>Adopt a Pet!</h1>
-  <p>Browse thru da links below 2 find ur new furry friend: (3) </p>
+  <p>Browse thru da links below 2 find ur new furry friend:</p>
   <ul>
   <li><a href="/animals/dogs">Dogs</a></li>
   <li><a href="/animals/cats">Cats</a></li>

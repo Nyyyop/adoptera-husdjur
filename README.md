@@ -9,8 +9,6 @@ The project is a web application built with the Flask framework. It provides a p
 
 The application uses many different functions that are present in "class" functions in Python, such as instances, classes, modules, and `__name__`. For routing, the project utilizes Flask's `route`, `request`, `response`, and `endpoints`.
 
-Whether you're looking for a furry friend or want to find a loving home for a pet, this application is here to help.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -37,20 +35,8 @@ To get started with Adoptera Husdjur, follow these steps:
 
 Once the application is up and running, you can access it at [URL]. Here are some features and functionalities you can expect:
 
-- User registration and authentication
 - Browse available pets
-- Submit adoption applications
-- Manage your profile and preferences
-
-## Contributing
-
-We welcome contributions from the community! If you'd like to contribute to Adoptera Husdjur, please follow these guidelines:
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes and commit them: `git commit -m 'Add your feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Submit a pull request
+    - Such as cats, dogs and rabbits 
 
 ## License
 
